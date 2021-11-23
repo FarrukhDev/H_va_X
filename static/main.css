@@ -1,0 +1,54 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 720px;
+    background-color: teal;
+}
+.search{
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    padding-left: 250px;
+}
+form{
+    padding-top:50px;
+    border-radius: 7px;
+}
+input{
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+button{
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.left{
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 7px;
+    height: 400px;
+    background-color: aliceblue;
+}
+.right{
+    width: 600px;
+    border-radius: 7px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.wrapp{
+    display: flex;
+}
